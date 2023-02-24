@@ -793,6 +793,9 @@ a {
 /* Media Queries*/
 
 @media (max-width: 380px) {
+  .services {
+    margin-top: -10rem;
+  }
   .header-content__title {
     font-size: 4rem;
   }
@@ -824,6 +827,9 @@ a {
 }
 
 @media (max-width: 576px) {
+  .services {
+    margin-top: -10rem;
+  }
   .footer__wrapper {
     text-align: center;
     margin: 0 auto;
@@ -834,6 +840,9 @@ a {
   .container {
     width: 54rem;
   }
+  .services {
+    margin-top: -10rem;
+  }
   .footer__wrapper {
     text-align: center;
     margin: 0 auto;
@@ -843,6 +852,9 @@ a {
 @media (min-width: 768px) {
   .container {
     width: 72rem;
+  }
+  .services {
+    margin-top: -10rem;
   }
   .nav__btn,
   .nav-menu {
@@ -884,6 +896,11 @@ a {
   .container {
     width: 96rem;
   }
+
+  .services {
+    margin-top: -10rem;
+  }
+
   .nav__link {
     display: block;
   }
